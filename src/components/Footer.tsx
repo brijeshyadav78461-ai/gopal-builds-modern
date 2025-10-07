@@ -40,7 +40,7 @@ const Footer = () => {
               </span>
             </div>
             <p className="text-primary-foreground/80 mb-6 leading-relaxed">
-              Building excellence since 2009. Your trusted partner in construction, delivering quality and innovation.
+              Building excellence since 1987. Your trusted partner in construction with 40+ years of experience delivering quality and innovation.
             </p>
             <div className="flex gap-4">
               {socialLinks.map((social, index) => {
@@ -114,8 +114,9 @@ const Footer = () => {
               <li className="flex items-start gap-3">
                 <MapPin className="w-5 h-5 text-accent flex-shrink-0 mt-1" />
                 <div>
-                  <p className="text-primary-foreground/80">123 Builder Street</p>
-                  <p className="text-sm text-primary-foreground/60">City, State 123456</p>
+                  <p className="text-primary-foreground/80">Gopal Builders (Registered Office)</p>
+                  <p className="text-sm text-primary-foreground/60">123 Construction Plaza, Industrial Area</p>
+                  <p className="text-sm text-primary-foreground/60">City, State 123456, India</p>
                 </div>
               </li>
             </ul>
